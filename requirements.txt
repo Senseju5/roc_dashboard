@@ -1,4 +1,4 @@
---upgrade setuptools
+setuptools
 dash==2.7.1
 dash_bootstrap_components
 pandas
