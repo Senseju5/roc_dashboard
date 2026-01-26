@@ -92,7 +92,7 @@ dbc.Row([
         f"""For the week of {max_date.strftime('%m/%d/%Y')}, the results are:""",
         html.Br(),
         html.Br()] +
-        results(orb_reward,"Orbs") + [
+        results(orb_reward,"Wonder Orbs") + [
         html.Br()] +
         results(activity_reward,"Activity Points") + [
         html.Br()] +
