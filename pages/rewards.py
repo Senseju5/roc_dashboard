@@ -34,12 +34,12 @@ rp_reward = reward_df("RP Spent")
 orb_reward = reward_df("Wonder Orbs")
 activity_reward = reward_df("Activity Points")
 
-def results(df,score):
-    # text_results = f"{score}:\n" 
-    text_results = [f"{score}:",html.Br()]
-    for i,row in df.iterrows():
-        # text_results = text_results + f"{i+1} - {row['Player']} - {int(row[1])} \n" 
-        text_results.append(f"{int(row['Place'])} - {row['Player']} - {int(row[score])} \n")
+def results(df, score):
+    text_results = [f"{score}:", html.Br()]
+    for _, row in df.iterrows():
+        text_results.append(
+            f"{int(row['Place'])} - {row['Player']} - {int(row[score])}"
+        )
         text_results.append(html.Br())
     return text_results
 
