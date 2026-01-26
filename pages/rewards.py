@@ -105,4 +105,4 @@ dbc.Row([
 style={'marginBottom': 50, 'marginTop': 25, 'marginLeft': 25, 'marginRight': 25})
 
 f"""For the week of {max_date.strftime('%m/%d/%Y')}, the results are:\n"""
-results(orb_reward,"Orbs")
+results(orb_reward,"Wonder Orbs")
